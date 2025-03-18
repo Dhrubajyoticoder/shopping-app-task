@@ -51,17 +51,17 @@ This is a *shopping application* built as part of a Frontend Developer Internshi
 ## 🔧 Setup & Installation
 
 1️⃣ *Clone the Repository*  
-sh
+
 git clone https://github.com/Dhrubajyoticoder/shopping-app-task.git
 cd shopping-app-task
 
 
 ### 2️⃣ *Install Dependencies* ###
-sh
+
 npm install
 
 ### 3️⃣ *Start the Development Server* ###
-sh
+
 npm run dev
 
 
