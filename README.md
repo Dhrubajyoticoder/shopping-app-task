@@ -1,54 +1,91 @@
-# React + TypeScript + Vite
+# 🛒 Shopping App - Frontend Developer Internship Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+This is a *shopping application* built as part of a Frontend Developer Internship hiring task. It features product listing, cart management, and state persistence using modern frontend technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 *Live Demo:* [Deployed on Vercel](#)  
+🔗 *GitHub Repo:* [Dhrubajyoticoder/shopping-app-task](https://github.com/Dhrubajyoticoder/shopping-app-task)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### ✅ *Product Listing Page*
+- Fetches and displays products from the [Fake Store API](https://fakestoreapi.com/docs).
+- Shows product images, titles, prices, and descriptions.
+- Includes *"Add to Cart"* functionality.
+- Supports *pagination, filtering by category, and sorting by price/rating*.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### ✅ *Cart Page*
+- Displays added products with quantity selection.
+- Allows users to remove items from the cart.
+- Shows total price calculation.
+- Cart state persists across page reloads.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### ✅ *Performance & Optimization*
+- *React Query* for efficient data fetching and caching.
+- *ShadCN components* for modern UI styling.
+- *Lazy loading* and *error handling*.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 🛠 Tech Stack
+
+| Technology      | Description                            |
+|----------------|----------------------------------------|
+| *React.js*   | UI development with functional components |
+| *TypeScript* | Type safety and improved code maintainability |
+| *Tailwind CSS* | Utility-first CSS framework for responsive design |
+| *ShadCN*     | Pre-built, customizable UI components |
+| *React Query* | State management and API data caching |
+| *Vercel*     | Deployment for production-ready hosting |
+
+---
+
+
+---
+
+## 🔧 Setup & Installation
+
+1️⃣ *Clone the Repository*  
+sh
+git clone https://github.com/Dhrubajyoticoder/shopping-app-task.git
+cd shopping-app-task
+
+
+### 2️⃣ *Install Dependencies* ###
+sh
+npm install
+
+### 3️⃣ *Start the Development Server* ###
+sh
+npm run dev
+
+
+The application will be available at: http://localhost:5173 (or a similar port). 
+
+
+## 📜 License
+This project is *MIT licensed*. Feel free to modify and use it.
+
+---
+
+## 🙌 Acknowledgements
+- [Fake Store API](https://fakestoreapi.com/) for product data.  
+- [ShadCN](https://ui.shadcn.com/) for UI components.  
+- [React Query](https://tanstack.com/query/latest) for state management.  
+- [Tailwind CSS](https://tailwindcss.com/) for styling.  
+
+---
+
+## 📌 Contributions & Issues
+💡 *Found a bug or want to improve something?*  
+Feel free to submit a *pull request* or *open an issue* in this repository.
+
+---
+
+## 📞 Contact  
+📩 *Dhrubajyoti Das*  
+🔗 [GitHub](https://github.com/Dhrubajyoticoder)  
+🔗 [LinkedIn](https://www.linkedin.com/in/dhrubajyoti-das-83b4662b6/)
