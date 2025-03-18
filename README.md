@@ -4,7 +4,7 @@
 
 This is a *shopping application* built as part of a Frontend Developer Internship hiring task. It features product listing, cart management, and state persistence using modern frontend technologies.
 
-🔗 *Live Demo:* [https://hype-havenn.vercel.app/l](#)  
+🔗 *Live Demo:* [https://hype-havenn.vercel.app/](#)  
 🔗 *GitHub Repo:* [Dhrubajyoticoder/shopping-app-task](https://github.com/Dhrubajyoticoder/shopping-app-task)  
 
 ---
