@@ -53,17 +53,17 @@ This is a *shopping application* built as part of a Frontend Developer Internshi
 1️⃣ *Clone the Repository*  
 ```
 git clone https://github.com/Dhrubajyoticoder/shopping-app-task.git
-
+```
 
 
 ### 2️⃣ *Install Dependencies* ###
 ```
 npm install
-
+```
 ### 3️⃣ *Start the Development Server* ###
 ```
 npm run dev
-
+```
 
 The application will be available at: http://localhost:5173 (or a similar port). 
 
