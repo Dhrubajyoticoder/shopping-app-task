@@ -4,7 +4,7 @@
 
 This is a *shopping application* built as part of a Frontend Developer Internship hiring task. It features product listing, cart management, and state persistence using modern frontend technologies.
 
-🔗 *Live Demo:* [Deployed on Vercel](#)  
+🔗 *Live Demo:* [https://hype-havenn.vercel.app/l](#)  
 🔗 *GitHub Repo:* [Dhrubajyoticoder/shopping-app-task](https://github.com/Dhrubajyoticoder/shopping-app-task)  
 
 ---
@@ -22,6 +22,8 @@ This is a *shopping application* built as part of a Frontend Developer Internshi
 - Allows users to remove items from the cart.
 - Shows total price calculation.
 - Cart state persists across page reloads.
+- Includes a discount section where users can redeem discount codes for their most recent order.
+- Displays NASA's daily trending space photo at the bottom for user engagement.
 
 ### ✅ *Performance & Optimization*
 - *React Query* for efficient data fetching and caching.
